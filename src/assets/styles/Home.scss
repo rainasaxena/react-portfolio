@@ -1,0 +1,41 @@
+@import './style.scss';
+
+
+#home-container{
+    overflow-x: hidden;
+    @include flexCenter(row, center);
+    height:100vh;
+    margin-top:-50px;
+    gap:240px;
+    .home-aside{
+        p{
+            font-size:40px;
+        }
+
+        h1{
+            font-size: 70px;
+            background-color: red;
+            background-image: $gradient-bg;
+            background-size: 100%;
+            background-repeat: repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            -moz-background-clip: text;
+            -moz-text-fill-color: transparent;
+        }
+    }
+
+
+   
+
+    .home-image img{
+        height:500px;
+        width:500px;
+        border-radius: 250px;
+        transition:0.5s;        
+
+        &:hover{
+            box-shadow: 0px 0px 10px rgb(138, 138, 138);
+        }
+    }
+}

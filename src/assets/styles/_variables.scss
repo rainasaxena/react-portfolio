@@ -1,0 +1,10 @@
+
+$gradient-bg:linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+
+@mixin flexCenter($direction,$justify-content){
+    display:flex;
+    align-items:center;
+    justify-content:$justify-content;
+    flex-direction: $direction;
+}
+

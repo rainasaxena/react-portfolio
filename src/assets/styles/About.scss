@@ -1,0 +1,32 @@
+@import './style.scss';
+
+
+
+
+#about-container{
+    background: #f6f9fa;
+    @include flexCenter(row, space-between);
+    padding:90px;
+    height:100vh;
+    gap:100px;
+    
+    
+    .about-aside img{
+        border-radius:50px;
+        height:400px;
+        width:400px;
+        border-radius: 200px;
+    }
+
+    .about-content{
+        padding:40px;
+        p{
+            font-size:35px;
+            color:#8e9599;
+            line-height:40px;
+        }
+
+    }
+
+
+}
